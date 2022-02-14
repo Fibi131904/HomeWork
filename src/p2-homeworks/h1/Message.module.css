@@ -29,7 +29,7 @@
 .MessageArea::after {
     content: ''; 
     position: absolute;
-    left: -20px; bottom: 0px;
+    left: -30px; bottom: 0px;
     border: 10px solid transparent;
     border-right: 20px solid rgb(71, 69, 69);
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { AffairType, FilterType } from './HW2'
+import s from './Affairs.module.css'
 
 type AffairPropsType = {
     // key не нужно типизировать
@@ -15,10 +16,10 @@ function Affair(props: AffairPropsType) {
     const deleteCallback = () => {props.deleteAffairCallback(props.affair._id)}// need to fix
 
     return (
-        <div>
+        <div >
             // show some text
 
-            <button onClick={deleteCallback}>X</button>
+            <button onClick={deleteCallback}className= {s.btn}>X</button>
         </div>
     )
 }

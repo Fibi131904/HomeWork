@@ -19,11 +19,11 @@
    border-top-right-radius:  10px;
    border-top-left-radius:  10px;
    border-bottom-right-radius:  10px;
-   background-color: rgb(71, 69, 69);
+   background-color: rgb(102, 96, 96);
 }
 
 .MessageArea {
-    background: rgb(71, 69, 69);
+   
     position: relative;
         }
 .MessageArea::after {
@@ -31,7 +31,7 @@
     position: absolute;
     left: -30px; bottom: 0px;
     border: 10px solid transparent;
-    border-right: 20px solid rgb(71, 69, 69);
+    border-right: 20px solid rgb(102, 96, 96);
 }
  
    

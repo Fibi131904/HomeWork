@@ -33,12 +33,12 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({ users, addUse
         console.log(`Hello ${name} !`) // need to fix
         setName('')
     }
-    const onKeyPress = (e:KeyboardEvent<HTMLInputElement>)=> {
+    const onKeyPress = (e: KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter' && name) {
             addUser()
             setName('')
         }
-    }   
+    }
 
     const totalUsers = users.length // need to fix
 

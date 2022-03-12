@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HomeWork.git/static/css/main.83ede613.css",
+    "main.js": "/HomeWork.git/static/js/main.301f9119.js",
+    "index.html": "/HomeWork.git/index.html",
+    "main.83ede613.css.map": "/HomeWork.git/static/css/main.83ede613.css.map",
+    "main.301f9119.js.map": "/HomeWork.git/static/js/main.301f9119.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ede613.css",
+    "static/js/main.301f9119.js"
+  ]
+}

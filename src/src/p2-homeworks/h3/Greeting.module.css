@@ -1,0 +1,22 @@
+
+
+.error {
+    border: 1px solid red;
+    color: red;
+    font-weight: bold;   
+}
+
+.button {
+    background-color: rgb(32, 100, 15);
+   color: chartreuse;
+}
+.total{
+    font-weight: bold;
+    padding: 10px;
+
+}
+.input {
+    color: chartreuse;  
+    background-color: rgb(32, 100, 15);
+    margin: 10px;
+}

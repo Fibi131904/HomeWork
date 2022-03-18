@@ -1,0 +1,28 @@
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    color: rgb(230, 36, 110);
+   
+}
+
+.block {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    background: lime;
+    
+}
+
+.header {
+    display: flex;
+    width: 280px;
+    transition-duration: 500ms;
+    transform: translate(-228px);
+}
+.header:hover {
+    transition-duration: 500ms;
+    transform: translate(0);
+
+}

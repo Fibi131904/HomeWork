@@ -1,0 +1,18 @@
+.select{
+    width: 80px;
+    padding: 5px;
+    background-color: rgb( 43, 153, 91 );
+    color: #fff;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+
+.select:focus {
+    outline: none;
+    border:rgb( 43, 153, 91 )
+}
+.option:checked {
+    background: rgb( 33, 126, 74 );
+    color: #fff;
+}

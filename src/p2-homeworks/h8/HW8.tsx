@@ -24,8 +24,8 @@ function HW8() {
     // need to fix any
     const finalPeople = people.map((p: UserType) => (
         <div key={p._id} className={s.item}>
-            {p.name}
-            {p.age}
+            <span>{p.name}</span>
+           <span>{p.age}</span> 
         </div>
     ))
 
@@ -41,7 +41,7 @@ function HW8() {
             {/*should work (должно работать)*/}
             {finalPeople}
 
-            <div>
+            <div className={s.buttonContainer}>
                 <SuperButton onClick={sortUp}>sort up</SuperButton>
                 <SuperButton onClick={sortDown}>sort Down</SuperButton>
                 <SuperButton onClick={check18}>check 18</SuperButton>

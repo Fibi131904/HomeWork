@@ -1,0 +1,15 @@
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    color: rgb(77, 75, 75);
+    min-height: 100px;
+    margin-left: 5px;
+
+}
+
+.button {
+    display: flex;
+
+}

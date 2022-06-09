@@ -1,5 +1,5 @@
 import { DriveFileRenameOutline } from '@mui/icons-material'
-import React, {DetailedHTMLProps, InputHTMLAttributes,  useState, ChangeEvent, ClassAttributes, HTMLAttributes} from 'react'
+import React, {DetailedHTMLProps, InputHTMLAttributes,  useState, HTMLAttributes} from 'react'
 import SuperInputText from '../../../h4/common/c1-SuperInputText/SuperInputText'
 
 // тип пропсов обычного инпута

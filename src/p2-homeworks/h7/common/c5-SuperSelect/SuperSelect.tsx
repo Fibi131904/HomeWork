@@ -1,4 +1,3 @@
-import { ClassNames } from '@emotion/react'
 import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent} from 'react'
 import s from './SuperSelect.module.css'
 

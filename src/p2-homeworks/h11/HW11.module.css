@@ -1,0 +1,17 @@
+.wrapper {
+    padding: 10px;
+    font-weight: bold;
+    color: rgb(77, 75, 75);
+}
+
+.superDoubleRange {
+    display: flex;
+}
+
+span {
+    margin: 5px;
+}
+
+.divValue2 {
+    margin-left: 15px;
+}

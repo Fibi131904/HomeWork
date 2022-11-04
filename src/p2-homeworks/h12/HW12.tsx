@@ -12,7 +12,7 @@ function HW12() {
     const dispatch = useDispatch()
     const theme = useSelector<AppStoreType, string>(store => store.theme.theme)
     // const theme = 'some'; // useSelector
-    const changeThemeCallback = (option: string) => {
+    const changeTheme = (option: string) => {
         dispatch(changeThemeC(option))
 
     }
@@ -31,7 +31,7 @@ function HW12() {
             {/*should work (должно работать)*/}
             <SuperSelect
                 options={themes}
-                onChangeOption={(option) => changeThemeCallback(option)} />
+                onChangeOption={(option) => changeTheme(option)} />
 
             <hr />
         </div>
